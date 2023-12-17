@@ -7,7 +7,7 @@
 =#
 
 using HorizonSideRobots
-r = Robot(animate = true)
+r = Robot("task2.sit", animate = true)
 
 function totopleft!(r,side)
     num = 0
