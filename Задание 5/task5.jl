@@ -7,7 +7,7 @@
 =#
 
 using HorizonSideRobots
-r = Robot(animate=true)
+r = Robot("task5.sit", animate=true)
  
 using HorizonSideRobots
 robot = Robot(animate = true)
