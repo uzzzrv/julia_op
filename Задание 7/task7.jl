@@ -7,7 +7,7 @@
 =#
 
 using HorizonSideRobots
-robot = Robot(animate = true)
+robot = Robot("task7.sit", animate = true)
 
 function move_throughborder!(robot,side_border)
     n = 0
