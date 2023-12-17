@@ -8,7 +8,7 @@
 
 using HorizonSideRobots
 
-r = Robot( animate = true)
+r = Robot( "task4.sit", animate = true)
 
 function back!(robot,sides::Tuple,num_s)
     for _ in range(0,num_s-1)
