@@ -1,5 +1,5 @@
 using HorizonSideRobots
-r = Robot(animate = true)
+r = Robot("task6.sit",animate = true)
 
 function corner_side(Side_hz::HorizonSide,Side_ver::HorizonSide) 
     moves = [] 
