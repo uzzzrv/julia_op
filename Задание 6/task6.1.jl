@@ -1,5 +1,5 @@
 using HorizonSideRobots
-r = Robot(animate = true)
+r = Robot("task6.sit", animate = true)
 
 inverse(Side::HorizonSide) = HorizonSide(mod(Int(Side)+2,4)) 
 nextside(Side::HorizonSide) = HorizonSide(mod(Int(Side)+1,4)) 
