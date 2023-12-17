@@ -6,7 +6,7 @@
 =#
 
 using HorizonSideRobots
-robot = Robot(animate = true)
+robot = Robot("task3.sit", animate = true)
 
 function back!(robot,side,num_steps)
     for x in range(0,num_steps-1)
