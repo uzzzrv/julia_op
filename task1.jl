@@ -6,8 +6,6 @@
 маркеров, расставленных вплоть до внешней рамки.
 =# 
 
-
-
 using HorizonSideRobots
 r = Robot("task1.sit", animate = true)
 
