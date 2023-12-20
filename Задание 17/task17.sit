@@ -1,0 +1,9 @@
+include("librobot.jl")
+using HorizonSideRobots
+robot = Robot("task17.sit", animate = true)
+
+function task8(robot)
+    spiral!(() -> ismarker(robot), robot)
+end
+
+task8(robot)
